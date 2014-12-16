@@ -1,0 +1,36 @@
+
+html, body, #fullheight {
+    min-height: 100% !important;
+    height: 100%;
+	width: 100%;
+	font-family: 'HelveticaNeue-ULight', serif;
+}
+
+@font-face {
+font-family: HelveticaNeue-ULight;
+src: url("HelveticaNeue-UltraLigExt.otf") format("opentype");
+}
+
+h1 {
+	font-size: 9vw;
+	margin: 0;
+}
+
+h3 {
+	font-size: 1.5vw;
+	margin: 200px 0;
+}
+
+.clock{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 100%;
+	color: white;
+}
+
+.center{
+	position: relative;
+	top: 35%;
+	text-align: center;
+}
